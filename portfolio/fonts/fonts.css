@@ -1,0 +1,26 @@
+@font-face {
+	font-family: 'Ridley Grotesk';
+	src: url('RidleyGrotesk-Light.html') format('woff2'),
+		url('RidleyGrotesk-Light.woff') format('woff'),
+		url('RidleyGrotesk-Light-2.html') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Ridley Grotesk';
+	src: url('RidleyGrotesk-Medium.html') format('woff2'),
+		url('RidleyGrotesk-Medium.woff') format('woff'),
+		url('RidleyGrotesk-Medium-2.html') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Ridley Grotesk';
+	src: url('RidleyGrotesk-SemiBold.html') format('woff2'),
+		url('RidleyGrotesk-SemiBold.woff') format('woff'),
+		url('RidleyGrotesk-SemiBold-2.html') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
