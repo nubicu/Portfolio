@@ -15,7 +15,7 @@
     <title><?php echo $lang['title'] ?></title>
   </head>
   <body>
-    <!--Main Navigation Start-->
+    <!-- Main Navigation Start -->
     <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-3 fixed-top">
           <div class="container">
