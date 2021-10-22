@@ -2,27 +2,19 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background: #333;
-  color: #fff;
+  color: white;
   font-size: 1.1em;
   line-height: 1.5;
   text-align: center;
 }
-/* Task 1 - Sa te uiti in dreapta sa vezi cum se schimba pagina
- cu fiecare linie de cod adaugata*/
 
 #showcase {
-  /* adauga aici un min height de 450px */
-  min-height: 500px;
-  /* adauga aici culoarea text-ului '#fff' */
-  color: #fff;
-  /* adauga aici cod pentru alinierea textului pe centrul paginii */
+  min-height: 97vh;
+  min-width: 97vw;
+  color: white;
   text-align: center;
-  /* adauga aici background url 'https://static.pexels.com/photos/248515/pexels-photo-248515.png' */
   background-image: url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
-  /* adauga aici background position center pentru a vedea centrul imaginii */
   background-position: center;
-  /* adauga aici background size cover astfel incat toata imaginea sa acopere
-     container-ul de la stanga la dreapta */
   background-size: cover;
 }
 
@@ -31,39 +23,27 @@ body {
   top: 0;
   right: 0;
   position: absolute;
-  /* adauga aici un width de 100% */
-  width: 100%;
-  /* adauga aici un height de 450px */
-  height: 450px;
-  /* adauga aici opacity 0.4 pentru a vedea acel blur */
+  width: 100vw;
+  height: 99vh;
   opacity: 0.4;
-  /* adauga aici z index -1 pentru a vedea text-ul clar */
   z-index: -1;
 }
 
 #showcase h1 {
-  /* adauga aici padding top 100px */
   padding-top: 100px;
   padding-bottom: 0;
-  /* adauga aici padding bottom 0 */
 }
 
 #showcase .content-wrap,
 #section-a .content-wrap {
-  /* adauga aici padding 0 1.5em */
   padding: 0 1.5em;
 }
 
 .btn {
-  /* adauga aici color #fff ca sa fie textul alb */
-  color: #fff;
-  /* adauga aici text decoration none pentru a scapa de linia de sub text */
+  color: white;
   text-decoration: none;
-  /* adauga aici border 1px solid #666*/
   border: 1px solid #666;
-  /* adauga aici padding 1em 2em sau poti pune 18px 36px*/
   padding: 1em 2em;
-  /* adauga aici background #333 */
   background: #333;
 }
 
@@ -71,50 +51,29 @@ body {
   background-color: yellowgreen;
 }
 
-/* Felicitari! Ai terminat primul tau task.
-  Premiaza-te cu ceva dulce pentru aceasta reusita :) */
+#btn-read {
+  margin-right: 30px;
+  font-size: 20px;
+}
 
-/* -------------------------------------------------------------------------------------- */
+#btn-contact {
+  margin-left: 30px;
+  font-size: 20px;
+}
 
-/* Task 2 - Sa te uiti in dreapta sa vezi cum se schimba pagina
-   cu fiecare linie de cod adaugata */
 /* Section A */
-
 #section-a {
-  /* adauga aici background #eaeaea */
   background: #eaeaea;
-  /* adauga aici culoarea textului #333 */
   color: #333;
-  /* adauga aici padding bottom 2em */
   padding-bottom: 2em;
 }
 
-/* Felicitari! Ai terminat al doilea task.
-  Premiaza-te cu o pauza pentru aceasta reusita :) */
-
-/* -------------------------------------------------------------------------------------- */
-
-/* Task 3 - Sa te uiti in dreapta sa vezi cum se schimba pagina
-   cu fiecare linie de cod adaugata*/
-
 /* Section B */
-
 img {
-  /* Adauga width 100% ca latimea imaginii sa nu depaseasca pe cea a div-ului */
   width: 100%;
 }
 
 #section-b {
-  /* Adauga padding top 20px */
-
-  /* Adauga padding right 10px */
-
-  /* Adauga padding bottom 5px */
-
-  /* Adauga padding left 10px */
-
-  /* BONUS Rescrie ce e sus adaugand padding intr-o singura linie de cod si valorile astfel incat sa arate la fel cum arata
-    folosind codul de mai sus */
   padding: 20px 10px 5px 10px;
 }
 
@@ -125,27 +84,16 @@ img {
   justify-content: space-around;
   /* Adauga list style type none ca sa scapi de acel punct alb de langa imagine*/
   list-style-type: none;
-  /* Adauga margin 0*/
   margin: 0;
-  /* Adauga padding 0*/
   padding: 0;
 }
 
 #section-b li {
-  /* Adauga width 31% */
   width: 31%;
-  /* Adauga margin bottom 15px */
   margin-bottom: 15px;
-  /* Adauga background #fff */
-  background: #fff;
-  /* Adauga color #333 */
+  background: white;
   color: #333;
 }
-
-/* Felicitari! Ai terminat al treilea task.
-  Premiaza-te cu o pauza pentru aceasta reusita :) */
-
-/* -------------------------------------------------------------------------------------- */
 
 /* Task 4 - Sa te uiti in dreapta sa vezi cum se schimba pagina
    cu fiecare linie de cod adaugata
